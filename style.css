@@ -1,0 +1,140 @@
+Body {
+    Background: #111;
+    Position: Relative;
+    Left: 45%;
+    Top: 15px;
+        Overflow: Hidden;
+}
+#Top {
+    Height: 50px;
+    Background: #Ff9c51;
+    Box-Shadow: 0 0 5px #Ff9c51;
+    -Webkit-Animation: Top_anim 4.5s Infinite;
+    Animation: Top_anim 4.5s Infinite;
+}
+@-Webkit-Keyframes Top_anim 
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+@Keyframes Top_anim
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+#Middle {
+    Height: 50px;
+    Background: White;
+    Box-Shadow: 0 0 5px White;
+    -Webkit-Animation: Middle_anim 4.5s Infinite;
+    Animation: Middle_anim 4.5s Infinite;
+    -Webkit-Animation-Delay: .2s;
+    Animation-Delay: .2s;
+}
+@-Webkit-Keyframes Middle_anim 
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+@Keyframes Middle_anim
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+#Middle Img {
+    Display: Block;
+    Width: 50px;
+    Height: 50px;
+    Margin: Auto;
+    -Webkit-Animation: Img_anim 4.5s Infinite Linear;
+    -Webkit-Animation-Delay: .2s;
+    Animation: Img_anim 4.5s Infinite;
+    Animation-Delay: .2s;
+}
+@-Webkit-Keyframes Img_anim
+{
+    0% {Opacity: 0;}
+    30% {Opacity: 0;-Webkit-Transform:rotate(0deg);Transform:rotate(0deg);-Ms-Transform:rotate(0deg);}
+    38% {Opacity: 1;}
+    62% {Opacity: 1;}
+    70% {Opacity: 0;-Webkit-Transform:rotate(360deg);Transform:rotate(360deg);-Ms-Transform:rotate(360deg);}
+    100% {Opacity: 0;}
+}
+@Keyframes Img_anim
+{
+    0% {Opacity: 0;}
+    30% {Opacity: 0;-Webkit-Transform:rotate(0deg);Transform:rotate(0deg);-Ms-Transform:rotate(0deg);}
+    38% {Opacity: 1;}
+    62% {Opacity: 1;}
+    70% {Opacity: 0;-Webkit-Transform:rotate(360deg);Transform:rotate(360deg);-Ms-Transform:rotate(360deg);}
+    100% {Opacity: 0;}
+}
+#Bottom {
+    Height: 50px;
+    Background: #5aad5e;
+    Box-Shadow: 0 0 5px #5aad5e;
+    -Webkit-Animation: Bottom_anim 4.5s Infinite;
+    Animation: Bottom_anim 4.5s Infinite;
+    -Webkit-Animation-Delay: .4s;
+    Animation-Delay: .4s;
+}
+@-Webkit-Keyframes Bottom_anim
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+@Keyframes Bottom_anim
+{
+    0% {Width: 0px;}
+    30%{Width: 250px;}
+    70%{Width: 250px;}
+    100%{Width: 0px;}
+}
+#Rod {
+    Width: 10px;
+    Height: 450px;
+    Background: #874a21;
+    Position: Relative;
+    Top: -152px;
+    Left: -7px;
+  Border-Radius: 40%;
+}
+#Text {
+  Font-Size: 35px;
+  Color: White;
+  Line-Height: 50px;
+  Text-Align: Center;
+  Border-Top: 4px Solid #FF8915;
+  Border-Left: 4px Solid White;
+  Border-Right: 4px Solid White;
+  Border-Bottom: 4px Solid #148809;
+  Border-Radius: 4px;
+  Display: Block;
+  Width: 250px;
+  Height: 100px;
+  Position: Relative;
+  Left: -300px;
+  Top: -600px;
+  -Webkit-Animation: Text_anim 4.5s Infinite;
+  Animation: Text_anim 4.5s Infinite;
+}
+@-Webkit-Keyframes Text_anim {
+  0% {Text-Shadow: 0 0 20px #6da2ff;}
+  50% {Text-Shadow: None;}
+  100% {Text-Shadow: 0 0 20px #6da2ff;}
+}
+@Keyframes Text_anim {
+  0% {Text-Shadow: 0 0 20px #6da2ff;}
+  50% {Text-Shadow: None;}
+  100% {Text-Shadow: 0 0 20px #6da2ff;}
+}
